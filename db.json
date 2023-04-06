@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "title": "Android App Development",
+        "price": 35000,
+        "duration": "4 Months",
+        "training-hours":"Morning/Evening Shift",
+        "descriptionhead":"GLOBAL TECHNOLOGIES HOLDS ONE PRIME POSITION IN ANDROID APP DEVELOPMENT",
+        "description": "Android Application Development courses offered through Coursera equip learners with knowledge in Java programming languages, Android studio tools, Android activity components, unit testing, audio and video programming, alarm clock application and more.This Specialization enables learners to successfully apply core Java programming languages features & software patterns needed to develop maintainable mobile apps comprised of core Android components, as well as fundamental Java I/O & persistence mechanisms.  The Capstone project will integrate the material from throughout the Specialization to exercise and assess the ability of learners to create an interesting Android app by applying knowledge and skills learned in previous MOOCs, including Java programming features, Android Studio tools, Android Activity components, Material Design, file I/O and data persistence, unit testing, and software patterns. The project itself will be similar in design goals to previous assignments, however it will provide less of the skeleton code than earlier MOOCs provide to enable more creativity to learners and greater opportunity for learners to customize the app. ",
+        "minidisc":"Android App is a versatile operating system specially meant for the proper functioning of smartphones....",
+        "image": "https://i.postimg.cc/1RC0P4RS/android.png"
+    },
+    {
+        "id": 2,
+        "title": "iOS App Development",
+        "price": 32000,
+        "duration": "3 Months",
+        "training-hours":"Morning/Evening Shift",
+        "descriptionhead":"GLOBAL TECHNOLOGIES HOLDS ONE PRIME POSITION IN IOS APP DEVELOPMENT",
+        "description": "iOS Development Course is among the most sought after courses today to learn which includes research, detection, assessment and analyzing the codes. It is a very popular course in Computer Science and Programming,iOS Programming.iOS Developers learn how to master the art of developing apps for Apple Products. This course is suitable for the candidates who wish to become an iOS Developer or pursue research in the future.There are a lot of online certificate courses available especially due to the increment of customized courses in Covid- 19 situation.Candidates get plenty of options to choose the certificate course according to their time and budget.If you do a little bit of research, you’ll come across an iOS skills matrix, like the one shown below. This particular iOS skills matrix is a compilation of the skills one should have at different levels on the way to becoming a senior iOS developer. The matrix is precise enough to give you an idea of the iOS developer skills you need to have but, at the same time, vague enough to avoid canonizing any one area of knowledge. In other words, it is meant to be used merely as a guide to help you chart your path.",
+        "minidisc":"iOS application development is the process of making mobile applications for Apple hardware..... ",
+        "image": "https://i.postimg.cc/qMY7x601/apple.png"
+    },
+    {
+        "id": 3,
+        "title": "Full Stack-Python Django",
+        "price": 45000,
+        "duration": "4 Months",
+        "training-hours":"Morning/Evening Shift",
+        "descriptionhead":"GLOBAL TECHNOLOGIES HOLDS ONE PRIME POSITION IN FULL STACK-PYTHON DJANGO",
+        "description": "Python Django Certification Training course is designed to make you an expert in Python Django Development and train you to build real-world web applications. This certification course will teach you to master the Django REST framework, Django Models, Django AJAX, Django jQuery, and Parsing data in XML and JSON format. This Instructor-led training is created by top industry experts and allows you to be a certified Django Developer.Django web framework has been rapidly gaining popularity for its pragmatic design and ease of use, and it is the most popular Python-based framework, according to the 2021 JetBrains Developer’s Survey which surveyed more than 19,000 web developers. Large enterprises such as Instagram, Mozilla, and Pinterest are driven by Django and contribute to the Django community. The best way to land you a good job with a handsome salary in this domain is to get a Python Django certification.This specialization introduces Python programmers to building websites using the Django library. Across the four courses, you will learn HTML, CSS, SQL, Django, JavaScript, jQuery, and JSON Web Services.  During the course, you will build online websites using Django and those working websites are graded throughout the course. This series is  excellent preparation for learning other ways to build web applications using technologies like PHP (Web Applications for Everybody), Flask or Ruby on Rails.  This is a great first course in any web development curriculum.",
+        "minidisc":"Django is a high-level Python web framework that enables rapid development of secure and maintainable websites...   ",
+        "image": "https://i.postimg.cc/QCvHCFdY/python.png"
+    },
+    {
+        "id": 4,
+        "title": "MERN-Stack Development",
+        "price": 50000,
+        "duration": "5 Months",
+        "training-hours":"Morning/Evening Shift",
+        "descriptionhead":"GLOBAL TECHNOLOGIES HOLDS ONE PRIME POSITION IN MERN STACK DEVELOPMENT",
+        "description": "There are many good reasons to use the MERN Stack.It allows the creation of a 3-tier architecture that includes frontend, backend, and database using JavaScript and JSON.MongoDB, which is the base of the MERN stack, is designed to store JSON data natively. Everything in it, including CLI and query language, is built using JSON and JS. The NoSQL database management system works well with NodeJS and thus, allows manipulating, representing, and storing JSON data at every tier of the application.It comes in a variant called MongoDB Atlas that further eases database management by offering an auto-scaling MongoDB cluster on any cloud provider and with just a few clicks.Express is a server-side framework that wraps HTTP requests and responses and makes mapping URLs to server-side functions easy. This perfectly complements the ReactJS framework, a front-end JS framework for developing interactive UIs in HTML while communicating with the server.As the two technologies work with JSON, data flows seamlessly, making it possible to develop fast and debug easily. To make sense of the entire system, you need to understand only one language, i.e., JavaScript and the JSON document structure.",
+        "minidisc":"MERN stack is a collection of technologies that enables faster application development...      ",
+        "image": "https://i.postimg.cc/bvfVbg5p/atom.png"
+    },
+    {
+        "id": 5,
+        "title": "MEAN-Stack Development",
+        "price": 50000,
+        "duration": "5 Months",
+        "training-hours":"Morning/Evening Shift",
+        "descriptionhead":"GLOBAL TECHNOLOGIES HOLDS ONE PRIME POSITION IN MEAN STACK DEVELOPMENT",
+        "description": "There are many good reasons to use the MEAN Stack.It allows the creation of a 3-tier architecture that includes frontend, backend, and database using JavaScript and JSON.MongoDB, which is the base of the MEAN stack, is designed to store JSON data natively. Everything in it, including CLI and query language, is built using JSON and JS. The NoSQL database management system works well with NodeJS and thus, allows manipulating, representing, and storing JSON data at every tier of the application.It comes in a variant called MongoDB Atlas that further eases database management by offering an auto-scaling MongoDB cluster on any cloud provider and with just a few clicks.Express is a server-side framework that wraps HTTP requests and responses and makes mapping URLs to server-side functions easy. This perfectly complements the ReactJS framework, a front-end JS framework for developing interactive UIs in HTML while communicating with the server.As the two technologies work with JSON, data flows seamlessly, making it possible to develop fast and debug easily. To make sense of the entire system, you need to understand only one language, i.e., JavaScript and the JSON document structure.",
+        "minidisc":"The MEAN stack is a JavaScript-based framework for developing web applications... ",
+        "image": "https://i.postimg.cc/m2w7VwhT/full-stack.png"
+    },
+    {
+        "id": 6,
+        "title": "Software Testing Training",
+        "price": 30000,
+        "duration": "3 Months",
+        "training-hours":"Morning/Evening Shift",
+        "descriptionhead":"GLOBAL TECHNOLOGIES HOLDS ONE PRIME POSITION IN SOFTWARE TESTING TRAINING",
+        "description": "Software testing is defined as work to check whether the actual results match the expected outcome and to make sure that the software is problem-free. It requires the execution of a software component or system component to evaluate one or more interest properties. Software testing also helps identify gaps, missing requirements, and errors contrary to the actual requirements. It can be either done using automated tools or manually—some like saying Software testing as a White Box and Black Box Testing.Software testing is a part of the curriculum of Undergraduate engineering courses (BE/BTech) in Information Technology or Computer Science. But, engineering and other graduates can choose for different certifications to get professional knowledge of software testing. Certifications help the testers/candidates to be more efficient and effective in their respective works. One can grow in their career by taking the next levels of software testing and gradually becoming an expert in it. Get to know about Software Engineering Courses After 10th details. Following is the list of such certifications.Every company wants well-tested and used software before submissions. Thus, it becomes the primary responsibility of all the developers to remove all the errors, bugs, and minimize the chances of cyberattacks from the particular program/software before submitting it finally. The below write-up describes the Quality Assurance Testing and its scope in detail.",
+        "minidisc":"Software testing is the process of evaluating and verifying that a software product or application does what it is supposed to do...",
+        "image": "https://i.postimg.cc/MpfKX6Cg/software.png"
+    },
+    {
+        "id": 7,
+        "title": "UI/UX Designing",
+        "price": 30000,
+        "duration": "3 Months",
+        "traininghours":"Morning/Evening Shift",
+        "descriptionhead":"GLOBAL TECHNOLOGIES HOLDS ONE PRIME POSITION IN MOBILE & WEB UI/UX DESIGNING",
+        "description": "The UI/UX Design Specialization brings a design-centric approach to user interface and user experience design, and offers practical, skill-based instruction centered around a visual communications perspective, rather than on one focused on marketing or programming alone. In this sequence of four courses, you will summarize and demonstrate all stages of the UI/UX development process, from user research to defining a project’s strategy, scope, and information architecture, to developing sitemaps and wireframes. You’ll learn current best practices and conventions in UX design and apply them to create effective and compelling screen-based experiences for websites or apps.User interface and user experience design is a high-demand field, but the skills and knowledge you will learn in this Specialization are applicable to a wide variety of careers, from marketing to web design to human-computer interaction.",
+        "minidisc":"UX design is all about identifying and solving user problems; UI design is all about creating intuitive, aesthetically-pleasing, interactive interfaces...",
+        "image": "https://i.postimg.cc/9MsH6ZMM/design.png"
+    },
+    {
+        "id": 8,
+        "title": "PHP Development",
+        "price": 40000,
+        "duration": "4 Months",
+        "training-hours":"Morning/Evening Shift",
+        "descriptionhead":"GLOBAL TECHNOLOGIES HOLDS ONE PRIME POSITION IN PHP DEVELOPMENT",
+        "description": "PHP Programming course provides the knowledge necessary to design and develop dynamic, database-driven Web pages using PHP 7. PHP is a language written for the Web, quick to learn, easy to deploy and provides substantial functionality required for e-commerce. This PHP training course introduces the PHP framework and syntax and covers in depth the most important techniques used to build dynamic Web sites. Students learn how to connect to any modern database, and perform hands on practice with a MySQL database to create database-driven HTML forms and reports.PHP is a server-side scripting language designed for web development. During this PHP beginner course, discover the fundamental concepts beginner PHP developers need to master. Your professional instructor combines practical lectures that ensure you have a grasp of the basics with coding examples.PHP is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.The server executes the PHP code, and then the client receives the generated HTML. It’s a relatively simple language for a newbie to learn. That simplicity doesn’t preclude an impressive number of advanced features that any experienced professional programmer will appreciate.",
+        "minidisc":"PHP (or PHP Hypertext Preprocessor) is a server-side scripting language that is used to create dynamic web pages that can interact with databases....",
+        "image": "https://i.postimg.cc/SKW92f00/php.png"
+    }
+]
