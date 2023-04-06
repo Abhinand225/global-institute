@@ -1,0 +1,20 @@
+<hr>
+<div class="container" *ngIf="eMsg">
+    <div class="row">
+        <div class="col">
+            <img class="img-empty" src="https://i.postimg.cc/13XhVWxF/6922095.jpg" alt="">
+            <h3 class="m-3">No Course Applied</h3>
+        </div>
+    </div>
+</div>
+<div class="main" *ngFor="let course of course">
+    <div class="content">
+        <div class="image">
+            <img class="course-image" [src]="course.image" alt="">
+        </div>
+        <div class="description">
+            <h1>{{course.title}}</h1>
+            <h2>{{course.description}}</h2>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,461 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.content{
+    display: contents;
+    position: relative;
+}
+.image{
+    width: 50%;
+    height: auto;
+}
+.txt{
+    left: 720px;
+    top: 80px;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    color: rgb(47, 46, 46);
+    z-index: 2;
+}
+h1{
+    font-family: 'Righteous', cursive;
+    font-size: 62px;
+}
+img.main{
+    width: 750px;
+    margin-left: -200px;
+    margin-top: 50px;
+}
+.txt1{
+    padding: 10px;
+    margin-left: -20px;
+    margin-top: 120px;
+}
+.txt2{
+    margin-left: 100px;
+}
+h3{
+    font-size: 20px;
+    line-height: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+.anm{
+    top: 70px;
+    position: absolute;
+    width: 100%;
+    height: 810px;
+}
+header{
+    width: 100%;
+    height: 850px;
+}
+.circle li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 70%;
+    background: rgb(255,163,166);
+    background: linear-gradient(207deg, rgba(255,163,166,0.8) 40%, rgba(255,221,194,0.8) 76%);
+    animation: animate 45s linear infinite;
+}
+.circle li:nth-child(1){
+    top: 200px;
+    left: 700px;
+    width: 120px;
+    height: 120px;
+    animation-duration: 20s;
+
+}
+.circle li:nth-child(2){
+    left: 900px;
+    width: 140px;
+    height: 140px;
+    animation-delay: 0s;
+    animation-duration: 15s;
+
+}
+.circle li:nth-child(3){
+    left: 1100px;
+    width: 100px;
+    height: 100px;
+    animation-delay: 1s;
+    animation-duration: 10s;
+
+}
+
+@keyframes animate {
+    0%{
+        transform: translate(0) rotate(0deg);
+    }
+    50%{
+        transform: translatex(500px) rotate(360deg);
+    }
+    100%{
+        transform: translateY(1000px) rotate(720deg);
+    }
+}
+.circle2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+.circle2 li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 70%;
+    background: rgb(255,163,166);
+    background: linear-gradient(207deg, rgba(255,163,166,0.8) 40%, rgba(255,221,194,0.8) 76%);
+    animation: animate2 35s linear infinite;
+    bottom: -150px;
+}
+.circle2 li:nth-child(1){
+    left: 700px;
+    width: 150px;
+    height: 150px;
+    transition-timing-function: ease-in;
+
+}
+.circle2 li:nth-child(2){
+    left: 1250px;
+    width: 100px;
+    height: 100px;
+    animation-delay: 0s;
+    animation-duration: 15s;
+
+}
+.circle2 li:nth-child(3){
+    left: 950px;
+    width: 200px;
+    height: 200px;
+    animation-delay: 0s;
+    animation-duration: 15s;
+
+}
+@keyframes animate2 {
+    0%{
+        transform: translatey(0) rotate(0deg);
+    }
+    50%{
+        transform: translatey(-500px) rotate(360deg);
+    }
+    100%{
+        transform: translatey(-1000px) rotate(720deg);
+    }
+}
+.features{
+    padding: 40px;
+    /* padding-top: 100px; */
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    display:flex ;
+}
+.dot{
+    display: flex ;
+    width: 25%;
+    height: 100px;
+}
+.dot1{
+    display: flex;
+    width: 25%;
+    height: 100px;
+}
+.dot2{
+    display: flex;
+    width: 25%;
+    height: 100px;
+}
+.dot3{
+    display: flex;
+    width: 200px;
+    height: 100px;
+}
+img.icon{
+    width: 50px;
+    height: 50px;
+}
+h6{
+    padding-left: 15px;
+    padding-top: 12px;
+
+}
+span{
+    display: block;
+}
+.txt3{
+    padding-top: 100px;
+}
+.card {
+    border-radius: 20px;
+    width: 20rem;
+    cursor: pointer;
+  }
+  
+.content2 {
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    transition: all 2.25s;
+    background: linear-gradient(207deg, rgba(255,163,166,1) 40%, rgba(255,221,194,1) 76%);
+    padding: 5em;
+    transform-style: preserve-3d;
+  }
+  
+  .card:hover .content2 {
+    transform: rotateY(0.5turn);
+  }
+  
+  .front,
+  .back {
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 2em;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+  }
+  
+  .title {
+    transform: translateZ(5rem);
+    font-size: 2rem;
+  }
+  
+  .subtitle {
+    transform: translateZ(2rem);
+  }
+  
+  .back {
+    transform: rotateY(0.5turn);
+    background: linear-gradient(207deg, rgba(255,163,166,0.8080225840336135) 40%, rgba(255,221,194,0.5) 76%);
+  }
+  
+  .description {
+    transform: translateZ(3rem);
+  }
+  .all-cards{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .btn {
+    margin-top: 50px;
+    position: relative;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1em 2.5em;
+    display: inline-block;
+    border-radius: 6em;
+    transition: all .2s;
+    border: 0.0001px solid black;
+    font-family: inherit;
+    font-weight: 500;
+    color: black;
+    background-color: white;
+   }
+   
+   .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(255,163,166,0.9080225840336135);
+   }
+   
+   .btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(255,163,166,0.9080225840336135);
+   }
+   
+   .btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+   }
+   
+   .btn::after {
+    background-color: #fff;
+   }
+   
+   .btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+   }
+   .t-course{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   }
+   .course_txt{
+    justify-content: space-evenly;
+    font-size: 25px;
+   }
+   #page{
+    margin-top: 100px;
+    padding: 50px;
+   }
+
+.course-image{
+    width: 70px;
+    font-weight:bold;
+}
+.left{
+    left: -30px;
+    width: 50%;
+    position: absolute;
+}
+.right{
+    width: 50%;
+    position: absolute;
+    left: 90px;
+}
+.subtitle{
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+    color: rgb(65, 59, 59);
+}
+.subtitle2{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(90, 79, 79);
+}
+.description{
+   margin-top: -20px;
+   font-family: 'Poppins', sans-serif;
+   
+}
+.btn2{
+    margin-top: -10px;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    color: rgb(90, 79, 79);
+    font-family: 'Poppins', sans-serif;
+}
+.btn2:hover{
+    border: 1px solid black;
+    box-shadow: rgb(153, 137, 137) 2px 2px 0 0;
+}
+.abt{
+    margin-top: 70px;
+    text-align: center;
+    justify-content: center;
+    margin-left: -250px;
+}
+.abt2{
+    margin-left: 250px;
+    text-align: center;
+    justify-content: center;
+}
+
+.l2{
+    position: absolute;
+    width: 50%;
+    height: 500px;
+    padding-top: 150px;
+    padding-left: 150px;
+}
+.r2{
+    padding-top: 50px;
+    position: absolute;
+    width: 50%;
+    height: 500px;
+    left: 50%;
+}
+.r2 img{
+    margin-left: 100px;
+    width: 500px;
+}
+/* .page-section2{
+    padding-top: 800px;
+} */
+.para{
+    font-weight: lighter;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+}
+
+.features2{
+    margin-top: 650px;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100px;
+    display:flex ;
+}
+.span{
+    font-weight: bold;
+    font-size: 25px;
+}
+#contact{
+    padding: 100px;
+}
+.main-head{
+    position: relative;
+}
+.img1 img{
+    position: absolute;
+    width: 400px;
+    left: 350px;
+    top: 120px;
+}
+.img2 img{
+    position: absolute;
+    width: 400px;
+    
+}
+.img3 img{
+    top: 450px;
+    position: absolute;
+    width: 400px;
+    
+}
+.img4 img{
+    top: 450px;
+    left: 1100px;
+    position: absolute;
+    width: 400px;
+    
+}
+.g-txt1{
+    width: 500px;
+    top: 500px;
+    position: absolute;
+    left: 550px;
+}
+.g-txt2{
+    width: 500px;
+    top: 200px;
+    left: 800px;
+    position: absolute;
+}
+#page{
+    width: 100%;
+    height: 900px;
+}

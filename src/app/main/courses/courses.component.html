@@ -1,0 +1,157 @@
+<hr>
+<P class="heading" id="#courses">Courses</P>
+<div class="head">
+    <h1>TRAINING UNDER INDUSTRY EXPERTS</h1>
+    <p>Global institute provides an area for improving your skills. We provide you the best courses with best trainers, and a good working environment. We assure you 100% placement assistance for the course that you have applied.</p>
+</div>
+
+<div class="container1" *ngFor="let course of courses" >
+    <div class="card" >
+        <div class="card-details">
+            <div class="left">
+                <img class="course-image" [src]="course.image" alt="">
+            </div>
+            <div class="right">
+                <p class="text-title">{{course.title}}</p>
+            </div>
+            <p class="text-body">{{course.minidisc}}
+        </p>
+        </div>
+        <div >
+        <button class="card-button" routerLink='/course-details/{{course.id}}'>More info</button>
+    </div>
+      </div>
+</div>
+
+
+
+
+
+<!-- 
+      <div class="card">
+        <div class="card-details">
+            <div class="left">
+                <img class="course-image" src="https://i.postimg.cc/qMY7x601/apple.png" alt="">
+            </div>
+            <div class="right">
+                <p class="text-title">iOS App Development</p>
+            </div>
+            <p class="text-body">iOS application development is the process of making mobile applications for Apple hardware..... </p>
+        </div>
+        <button class="card-button"routerLink='/course-details/{{course.id}}'>More info</button>
+      </div>
+
+
+
+      <div class="card">
+        <div class="card-details">
+            <div class="left">
+                <img class="course-image" src="https://i.postimg.cc/QCvHCFdY/python.png" alt="">
+            </div>
+            <div class="right">
+                <p class="text-title">Full Stack-Python Django</p>
+            </div>
+            <p class="text-body">Django is a high-level Python web framework that enables rapid development of secure and maintainable websites...   
+        </p>
+        </div>
+        <button class="card-button"routerLink='/course-details/{{course.id}}'>More info</button>
+      </div>
+
+</div>
+
+
+
+<div class="container2">
+    <div class="card">
+        <div class="card-details">
+            <div class="left">
+                <img class="course-image" src="https://i.postimg.cc/bvfVbg5p/atom.png" alt="">
+            </div>
+            <div class="right">
+                <p class="text-title">MERN-Stack Development</p>
+            </div>
+            <p class="text-body"> MERN stack is a collection of technologies that enables faster application development...     
+        </p>
+        </div>
+        <button class="card-button"routerLink='/course-details/{{course.id}}'>More info</button>
+      </div>
+
+
+
+      <div class="card">
+        <div class="card-details">
+            <div class="left">
+                <img class="course-image" src="https://i.postimg.cc/m2w7VwhT/full-stack.png" alt="">
+            </div>
+            <div class="right">
+                <p class="text-title">MEAN-Stack Development</p>
+            </div>
+            <p class="text-body"> The MEAN stack is a JavaScript-based framework for developing web applications...   
+        </p>
+        </div>
+        <button class="card-button"routerLink='/course-details/{{course.id}}'>More info</button>
+      </div>
+
+
+
+      <div class="card">
+        <div class="card-details">
+            <div class="left">
+                <img class="course-image" src="https://i.postimg.cc/MpfKX6Cg/software.png" alt="">
+            </div>
+            <div class="right">
+                <p class="text-title">Software Testing Training</p>
+            </div>
+            <p class="text-body">Software testing is the process of evaluating and verifying that a software product or application does what it is supposed to do...
+        </p>
+        </div>
+        <button class="card-button"routerLink='/course-details/{{course.id}}'>More info</button>
+      </div>
+</div>
+
+
+<div class="container3">
+    <div class="card">
+        <div class="card-details">
+            <div class="left">
+                <img class="course-image" src="https://i.postimg.cc/9MsH6ZMM/design.png" alt="">
+            </div>
+            <div class="right">
+                <p class="text-title">UI/UX Designing</p>
+            </div>
+            <p class="text-body">UX design is all about identifying and solving user problems; UI design is all about creating intuitive, aesthetically-pleasing, interactive interfaces...
+        </p>
+        </div>
+        <button class="card-button"routerLink='/course-details/{{course.id}}'>More info</button>
+      </div>
+
+
+
+      <div class="card2">
+        <div class="card-details">
+            <div class="left">
+                <img class="course-image" src="https://i.postimg.cc/SKW92f00/php.png" alt="">
+            </div>
+            <div class="right">
+                <p class="text-title">PHP Development</p>
+            </div>
+            <p class="text-body">PHP (or PHP Hypertext Preprocessor) is a server-side scripting language that is used to create dynamic web pages that can interact with databases.... </p>
+        </div>
+        <button class="card-button" routerLink='/course-details/{{course.id}}'>More info</button>
+      </div> -->
+
+
+
+      <!-- <div class="card" > -->
+        <!-- <div class="card-details">
+            <div class="left">
+                <img class="course-image" src="../../../assets/python.png" alt="">
+            </div>
+            <div class="right">
+                <p class="text-title">Full Stack-Python Django</p>
+            </div>
+            <p class="text-body">Django is a high-level Python web framework that enables rapid development of secure and maintainable websites...   
+        </p>
+        </div>
+        <button class="card-button">More info</button> -->
+      <!-- </div> -->

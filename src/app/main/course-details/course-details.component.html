@@ -1,0 +1,189 @@
+<hr>
+<div class="main" *ngFor="let course of courses">
+    <div class="content">
+        <div class="image">
+            <img class="course-image" [src]="course.image" alt="">
+        </div>
+        <div class="description">
+            <h1>{{course.title}}</h1>
+        </div>
+    </div>
+    <div class="data">
+        <div class="card">
+            <div class="card-img">
+                <div class="one">
+                    <p class="txt-title">Program Duration</p>
+                    <p class="txt">{{course.duration}}</p>
+                 </div>
+                 <div class="two">
+                    <p class="txt-title">Training Hours</p>
+                    <p class="txt">Morning/Evening Shift</p>
+                 </div>
+                  <div class="three">
+                    <p class="txt-title">Contact Us</p>
+                    <p class="txt">+91 774774747  <br>+91 987766555
+                    </p>
+                  </div>
+            </div>
+              <div class="card-info">
+                <div class="card-text">
+                    <a class="btn"  data-bs-toggle="modal" data-bs-target="#exampleModal"  >APPLY NOW</a>
+                </div>
+                <div class="card-icon">
+                  <svg viewBox="0 0 28 25">
+                    <path d="M13.145 2.13l1.94-1.867 12.178 12-12.178 12-1.94-1.867 8.931-8.8H.737V10.93h21.339z"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+    </div>
+
+    <div class="details">
+        <h2>{{course.descriptionhead}}</h2>
+        <div class="explain">
+        <p>{{course.description}}</p>
+        </div>
+        <br><br>
+        <h2>How the Specialization Works</h2>
+        <div class="explain">
+            <h5>Take Courses</h5>
+            <p>A Specialization is a series of courses that helps you master a skill. To begin, enroll in the Specialization directly, or review its courses and choose the one you'd like to start with. When you subscribe to a course that is part of a Specialization, you’re automatically subscribed to the full Specialization. It’s okay to complete just one course — you can pause your learning or end your subscription at any time. Visit your learner dashboard to track your course enrollments and your progress.</p>
+            <h5>Hands-on Project</h5>
+            <p>Every Specialization includes a hands-on project. You'll need to successfully finish the project(s) to complete the Specialization and earn your certificate. If the Specialization includes a separate course for the hands-on project, you'll need to finish each of the other courses before you can start it.</p>
+            <h5>Earn a Certificate</h5>
+            <p>When you finish every course and complete the hands-on project, you'll earn a Certificate that you can share with prospective employers and your professional network.</p>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"*ngFor="let course of courses">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-hd">Regisetration For {{course.title}} </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="" [formGroup]="applyForm">
+          <div><input type="text" placeholder="Full Name"formControlName="name"></div>
+          <br>
+          <div style="color: red;" *ngIf="this.applyForm.get('name')?.errors && this.applyForm.get('name')?.touched" >
+            Invalid details
+        </div>
+
+
+        
+         <div> <input type="text" placeholder="Place" formControlName="place"></div><br>
+          <div style="color: red;" *ngIf="this.applyForm.get('place')?.errors && this.applyForm.get('place')?.touched" >
+            Invalid details
+        </div>
+
+
+        <div >
+          <select >
+            <option selected >Gender</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+            <option value="3">others</option>
+          </select>
+        </div><br>
+          <!-- <div style="color: red;" *ngIf="this.applyForm.get('gender')?.errors && this.applyForm.get('gender')?.touched" >
+            Invalid details
+        </div> -->
+
+
+        <div>
+          <input type="text"  placeholder="Email" formControlName="email">
+        </div>
+          <br>
+          <div style="color: red;" *ngIf="this.applyForm.get('email')?.errors && this.applyForm.get('email')?.touched" >
+            Invalid details
+        </div>
+
+
+        <div>
+          <input type="text"  placeholder="Contact No" formControlName="number">
+        </div>
+          <br>
+          <div style="color: red;" *ngIf="this.applyForm.get('number')?.errors && this.applyForm.get('number')?.touched" >
+            Invalid details
+        </div>
+
+
+        <div>
+          <input type="text"  placeholder="Educational Qualification" formControlName="qualification">
+        </div>
+          <br>
+          <div style="color: red;" *ngIf="this.applyForm.get('qualification')?.errors && this.applyForm.get('qualification')?.touched" >
+            Invalid details
+        </div>
+
+
+
+        <div>
+          <input type="text"  placeholder="Name Of College "formControlName="collegename">
+        </div>
+          <br>
+          <div style="color: red;" *ngIf="this.applyForm.get('collegename')?.errors && this.applyForm.get('colllegename')?.touched" >
+            Invalid details
+        </div>
+
+
+        <div>
+          <input type="text"  placeholder="Year Of Graduation " formControlName="year">
+        </div>
+          <br>
+          <div style="color: red;" *ngIf="this.applyForm.get('year')?.errors && this.applyForm.get('year')?.touched" >
+            Invalid details
+        </div>
+        </form>
+       
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn " data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn " (click)="apply()" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Apply Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1" *ngFor="let course of courses">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalToggleLabel2">Payment Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="">
+          <div>
+            <label for="">Person name</label>
+            <input type="text" class="inp1" placeholder="Eg: Hari T">
+          </div>
+          <div>
+            <label for="">Card number</label>
+            <input type="text"class="inp1" placeholder="1234 5678 56789">
+          </div>
+          <div class="inpt">
+            <label for="">Expiry</label>
+            <label for="">CVV/CVC</label>
+          </div>
+          <div class="inpt">
+            <input type="text" class="inp2" placeholder="MM/YYYY">
+            <input type="password" class="inp2" placeholder="***">
+          </div> <br>
+          <h3>Total = {{course.price}} <i class="fa-sharp fa-solid fa-indian-rupee-sign"></i></h3>
+        </form>
+
+
+      </div>
+      <div class="modal-footer">
+        <button class="btn" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal" (click)="addcourse(course)">Make Payment</button>
+      </div>
+    </div>
+  </div>
+</div>

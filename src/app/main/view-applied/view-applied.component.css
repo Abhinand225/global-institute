@@ -1,0 +1,25 @@
+.content{
+    background: linear-gradient(207deg, rgba(255,163,166,0.9080225840336135) 40%, rgba(255,221,194,1) 76%);;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+.description{
+    color: rgb(84, 81, 81);
+    font-family: 'Righteous', cursive;
+    margin-left: 50px;
+}
+.course-image{
+    margin-left: 150px;
+    width: 100px;
+}
+h2{
+    font-size: 15px;
+}
+.img-empty{
+    margin-left: 400px;
+    width: 500px;
+}
+h3{
+    text-align: center;
+}
